@@ -24,18 +24,44 @@ body {
 
 .content {
     display: flex;
-    background-color: green;
 }
 .description{
     background-color: white;
-    padding-left: 40px;
-    padding-right: 40px;
     color: var(--dark-grayish-blue);
+}
+.des-margin{
+    margin: 30px;
+}
+.detail-text{
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+    margin:0;
+}
+.price{
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Fraunces';
+    font-size: 2rem;
+    color: var(--dark-cyan);
+    margin-top:20px;
+}
+.price span{
+    text-decoration: line-through;
+    color: var(--dark-grayish-blue);
+    font-family: 'Montserrat';
+    margin-left: 20px;
 }
 .title {
     font-family: 'Fraunces';
     font-size:2.5rem;
     color: var(--very-dark-blue);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bt{
+    width: 100%;
+    height: 20px;
+    background-color: var(--dark-cyan);
 }
 .subtitle{
     font-family: 'Montserrat';
